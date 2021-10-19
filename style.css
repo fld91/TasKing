@@ -1,0 +1,82 @@
+html,body{
+    height: 100%;
+    width:100%;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+    
+}
+* {
+    box-sizing: border-box;
+}
+.heading{
+width: 80vw;
+height:200px;
+font-size: 100px;
+
+background-color:darkslategray;
+font-weight: lighter;
+color:beige;
+margin-bottom: 10px;
+text-align: center;
+margin-left: 10%;
+margin-top: 20px;
+padding-top: 40px;
+border-radius: 50px;
+
+}
+.subhead{
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 100px;
+}
+input{
+    
+    width: 64%;    
+    height: 50px;
+    border-radius: 10px;
+    border-width: 2px ;
+    border-color:darkslategray;
+    padding-left: 10px;
+    
+
+}
+button{
+    width: 15%;
+    border-radius: 20px;
+    height: 50px;
+    background-color:rgba(47, 79, 79, 0.979)  ;
+    
+    border-width: 0ch;
+}
+.inputcontainer{
+    padding-top: 30px;
+    margin-left:10% ;
+    justify-content: space-between;
+    
+    margin-right: 10%;
+    display: flex;
+    
+}
+.taskContainer{
+    background-color: rgb(77, 109, 51);    
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 500px;
+    width:80%;
+       
+    
+}
+.taskf{
+    padding-left: 10px;
+}
+.taskdes{
+       background-color: rgb(40, 100, 153); 
+    width: 300px;
+    height: 50px;
+    
+    
+}
+.deletbtn{
+    background-color: bisque;
+}/*how to style delete button here because it having unique id 
+and also task decription*/
